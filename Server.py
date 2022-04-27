@@ -6,7 +6,6 @@ import pickle
 import subprocess
 import platform  # tells us if we're running on a windows or linux machine
 
-from gmail import email_alert
 
 
 class Server():
