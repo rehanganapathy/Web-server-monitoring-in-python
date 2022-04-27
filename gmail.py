@@ -6,10 +6,10 @@ def email_alert(subject, body, to):
     msg = EmailMessage()
     msg.set_content(body)
 
-    gmail_user = 'rehanganapathy1710@gmail.com'
-    gmail_password = 'mypetinyours'
+    gmail_user = 'enter your own email'
+    gmail_password = 'password'
     msg['Subject'] = subject
-    msg['From'] = "rehanganapathy1710@gmail.com"
+    msg['From'] = "your email"
     msg['To'] = to
 
     s = smtplib.SMTP('smtp.gmail.com', 587)
